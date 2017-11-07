@@ -206,7 +206,7 @@ $excel->getActiveSheet(0)->setTitle("Laporan Data Survey");
 $excel->setActiveSheetIndex(0);
 // Proses file excel
 header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-header('Content-Disposition: attachment; filename="Data Survey.xlsx"'); // Set nama file excel nya
+header('Content-Disposition: attachment; filename="Form Survey.xlsx"'); // Set nama file excel nya
 header('Cache-Control: max-age=0');
 $write = PHPExcel_IOFactory::createWriter($excel, 'Excel2007');
 $write->save('php://output');
