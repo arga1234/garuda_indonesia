@@ -312,7 +312,7 @@
 
 					// Cek apakah variabel kosong lebih dari 1
 					// Jika lebih dari 1, berarti ada data yang masih kosong
-					if($kosong > 0){
+					if($kosong > 1110){
 					?>
 						<script>
 						$(document).ready(function(){
